@@ -114,11 +114,11 @@ img::-moz-selection {
 }
 @media (min-width:992px) {
     #mainNav {
-        padding-top:25px;
-        padding-bottom:25px;
+        padding-top:0px;
+        padding-bottom:0px;
         transition:padding-top .3s, padding-bottom .3s;
         border:none;
-        background-color:transparent
+        background-color:black;
     }
     #mainNav .navbar-brand {
         font-size:1.75em;
@@ -479,8 +479,8 @@ header.masthead .intro-text .intro-heading {
     text-align:center
 }
 .team-member img {
-    width:225px;
-    height:225px;
+    width:auto;
+    height:auto;
     border:7px solid rgba(0, 0, 0, .1)
 }
 .team-member h4 {
